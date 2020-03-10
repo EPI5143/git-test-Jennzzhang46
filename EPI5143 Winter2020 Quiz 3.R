@@ -21,6 +21,14 @@ view(mpg)
 nrow(mpg) 
 ncol(mpg) 
 dim(mpg) 
+# results from console table
+> nrow(mpg) 
+[1] 234 observations
+> ncol(mpg) 
+[1] 11 variables
+> dim(mpg) 
+[1] 234  11
+####
 # The following commands to ggplot create a basic plot of the 
 # highway fuel efficiency vs.engine size (displacement in L) for vehicles in the dataset
 # ie. x=displ and y=hwy, run this code and look at the plot 
