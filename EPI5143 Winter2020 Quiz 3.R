@@ -49,7 +49,8 @@ ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy, color=class, s
 ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy, color=class, shape=drv, size=cyl))
 
 # Question 5. Modify the code to add a suitable title of your choice to your plot
-mpgplot <- ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy, color=class, shape=drv, size=cyl))
+ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy, color=class, shape=drv, size=cyl)) + ggtitle("mpgplot")
+
 
 
 
